@@ -7,4 +7,4 @@ To delete a message that is stored in the secure message system, the user must i
 
 Hashing is used by using bcrypt. Before hashing, a salt is generated. A salt is a random value added to the text that will be hashed. Salt is important so that if you have duplicate texts, different hashes would still be generated. Pwinput is used to mask the passwords into "*" during password input.
 
-secretMessages.py contains the code. user_code.txt and messages.txt are sample text files. In reality, these files would be kept secret.
+secretMessages.py contains the code. user_code.txt and messages.txt are sample text files. In reality, both of these txt files would be kept secret.
