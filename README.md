@@ -8,3 +8,11 @@ To delete a message that is stored in the secure message system, the user must i
 Hashing is used by using bcrypt. Before hashing, a salt is generated. A salt is a random value added to the text that will be hashed. Salt is important so that if you have duplicate texts, different hashes would still be generated. Pwinput is used to mask the passwords into "*" during password input.
 
 secretMessages.py contains the code. user_code.txt and messages.txt are sample text files. In reality, both of these txt files would be kept secret.
+
+# How to run code:
+In Visual Studio Code:
+1. We will set up the virtual environment to use bcrypt and pwinput. In the terminal, put in "python -m venv myenv".
+2. Then we will activate the virtual environment. If you are on Windows, do "myenv\Scripts\activate". If you are on macOS or Linux, do "source myenv/bin/activate" in the terminal.
+3. Then, do "pip install bcrypt pwinput" in terminal.
+4. Type in "python secretMessages.py".
+5. Follow instructions listed in the terminal.
